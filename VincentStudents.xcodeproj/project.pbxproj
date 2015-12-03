@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8571CCC1C1089B90069E1BE /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8571CCB1C1089B90069E1BE /* CustomTVC.swift */; };
+		B8571CCE1C108CF10069E1BE /* CustomEmbeddedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8571CCD1C108CF10069E1BE /* CustomEmbeddedTVC.swift */; };
 		B8FED6E11BE3A46900EA2EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FED6E01BE3A46900EA2EDF /* AppDelegate.swift */; };
 		B8FED6E31BE3A46900EA2EDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FED6E21BE3A46900EA2EDF /* ViewController.swift */; };
 		B8FED6E61BE3A46900EA2EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8FED6E41BE3A46900EA2EDF /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8571CCB1C1089B90069E1BE /* CustomTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		B8571CCD1C108CF10069E1BE /* CustomEmbeddedTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomEmbeddedTVC.swift; sourceTree = "<group>"; };
 		B8FED6DD1BE3A46900EA2EDF /* VincentStudents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VincentStudents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FED6E01BE3A46900EA2EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FED6E21BE3A46900EA2EDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				B8FED6E71BE3A46900EA2EDF /* Assets.xcassets */,
 				B8FED6E91BE3A46900EA2EDF /* LaunchScreen.storyboard */,
 				B8FED6EC1BE3A46900EA2EDF /* Info.plist */,
+				B8571CCB1C1089B90069E1BE /* CustomTVC.swift */,
+				B8571CCD1C108CF10069E1BE /* CustomEmbeddedTVC.swift */,
 			);
 			path = VincentStudents;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8571CCE1C108CF10069E1BE /* CustomEmbeddedTVC.swift in Sources */,
 				B8FED6E31BE3A46900EA2EDF /* ViewController.swift in Sources */,
 				B8FED6E11BE3A46900EA2EDF /* AppDelegate.swift in Sources */,
+				B8571CCC1C1089B90069E1BE /* CustomTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				B8FED7071BE3A46900EA2EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8FED7081BE3A46900EA2EDF /* Build configuration list for PBXNativeTarget "VincentStudentsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				B8FED70A1BE3A46900EA2EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8FED70B1BE3A46900EA2EDF /* Build configuration list for PBXNativeTarget "VincentStudentsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				B8FED70D1BE3A46900EA2EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
